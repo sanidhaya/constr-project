@@ -32,7 +32,9 @@ jobs:
       working-directory: constr-project/my-app
     - run: npm test
       working-directory: constr-project/my-app
-
+    - name: Debug
+      run: ls -R
+      working-directory: constr-project/my-app
     - name: Deploy with gh-pages
       run: |
         git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
