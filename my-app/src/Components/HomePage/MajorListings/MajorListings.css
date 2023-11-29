@@ -1,0 +1,8 @@
+.major_listings{
+    display: flex;
+    align-items: center;
+}
+
+.sliding_card{
+    width: 600px;
+}
