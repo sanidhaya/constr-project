@@ -36,12 +36,11 @@ const MajorListings = () => {
     infinite: true,
     slidesToShow: 4,
     initialSlide : 0, 
-    centerPadding: "60px",
-    prevArrow : <SamplePrevArrow />,
-    nextArrow : <SampleNextArrow />
+    centerPadding: "60px"
    }
 
   return (
+    <div className='m-10 mj-listings'>
     <div className='m-10 major_listings'>
       <div className="sliding_card">
       <h1 className="major_listing">Major Listings</h1>
@@ -58,6 +57,7 @@ const MajorListings = () => {
         ))}
         </Slider>
       </div>
+    </div>
     </div>
   );
 };

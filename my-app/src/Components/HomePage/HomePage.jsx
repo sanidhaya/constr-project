@@ -60,19 +60,23 @@ const HomePage = () => {
         {/*-------------Header-------------------*/}
         {/*------------slideshow-----------------*/}
         <div className="collage-slides">
-        <Collage slides={slides}/>
+          <Collage slides={slides}/>
         </div>
         {/*------------slideshow-----------------*/}
         {/*--basic bits likebest in class sols---*/}
         <div className="little-about">
-        <LittleAbout /> 
+          <LittleAbout /> 
         </div>
         {/*--basic bits likebest in class sols---*/}
         {/*-----------major listings-------------*/}
-        <MajorListings />
+        <div class="majorlistings">
+          <MajorListings />
+        </div>
         {/*-----------major listings-------------*/}
         {/*-----------load more button-----------*/}
+        <div className="LoadmoreProperties">
         <LoadMore />
+        </div>
         {/*-----------load more button-----------*/}
         {/*-----------testimonials---------------*/}
     </>

@@ -6,3 +6,14 @@
     padding-bottom: 30px;
 }
 
+.majorlistings{
+    display: 'flex';
+    flex-direction: column;
+    justify-content: 'center';
+    align-items: 'center';
+    height: 45vh;
+}
+
+.LoadmoreProperties{
+    margin: 10px;
+}
